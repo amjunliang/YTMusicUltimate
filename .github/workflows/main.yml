@@ -3,9 +3,9 @@ name: Build and Release YTMusicUltimate
 on:
   workflow_dispatch:
     inputs: 
-      ipa_url:
+      ipa_url: 
         description: "URL to the decrypted IPA file"
-        default: ""
+        default: "https://und3fy-my.sharepoint.com/personal/4decrypt_und3fy_onmicrosoft_com/_layouts/15/download.aspx?share=EUdLrfvYWfZEo-EWAsSYO7YBedb0tLnJ2q7vXr1vF9DcVw"
         required: true
         type: string
 
